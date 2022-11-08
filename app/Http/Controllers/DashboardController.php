@@ -29,7 +29,6 @@ class DashboardController extends Controller
         $statement->execute();
         $result = $statement->fetchAll();
 
-
         $output = '';
         foreach ($tables as $table) {
             $show_table_query = "SHOW CREATE TABLE " . $table . "";
