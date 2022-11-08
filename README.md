@@ -19,9 +19,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 4. Run `php artisan migrate` to create tables
 5. Run `php artisan db:seed` to seed the database
 
-If you can't run `php artisan migrate` or `php artisan db:seed` commands, you can run `php artisan migrate:fresh --seed` to drop all tables and re-run all migrations. This will also seed the database.
-
-If same error occurs, you can run `php artisan migrate:fresh --seed --force` to drop all tables and re-run all migrations. This will also seed the database.
+If data not import in database, run :
 
 ```bash
 
@@ -33,7 +31,7 @@ php artisan migrate:fresh --seed --seeder=UserSeeder
 
 ```
 
-7. Run `php artisan serve` to start the local development server
+1. Run `php artisan serve` to start the local development server
 
 For view the project, open your browser and go to [http://localhost:8000](http://localhost:8000)
 
