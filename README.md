@@ -31,7 +31,7 @@ php artisan migrate:fresh --seed --seeder=UserSeeder
 
 ```
 
-7. Run `php artisan serve` to start the local development server
+1. Run `php artisan serve` to start the local development server
 
 For view the project, open your browser and go to [http://localhost:8000](http://localhost:8000)
 
